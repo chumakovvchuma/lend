@@ -6,30 +6,30 @@ $( document ).ready(function(){
 
   $( ".link-to-two" ).on({ 
     "click": function() { 
-      $.scrollify.move("#twoPage");
+      $.scrollify.move("#Головна");
   }});
   $( ".link-to-three" ).on({ 
     "click": function() { 
-      $.scrollify.move("#threePage");
+      $.scrollify.move("#Проекти");
   }});
   $( ".link-to-four" ).on({ 
     "click": function() { 
-      $.scrollify.move("#fourPage");
+      $.scrollify.move("#Кар'єра");
   }});
 
 
 
   $( ".link-two-m" ).on({ 
     "click": function() { 
-      $.scrollify.move("#twoPage");
+      $.scrollify.move("#Головна");
   }});
   $( ".link-three-m" ).on({ 
     "click": function() { 
-      $.scrollify.move("#threePage");
+      $.scrollify.move("#Проекти");
   }});
   $( ".link-four-m" ).on({ 
     "click": function() { 
-      $.scrollify.move("#fourPage");
+      $.scrollify.move("#Кар'єра");
   }});
 
 
