@@ -12,7 +12,7 @@
       sectionName: "section-name",
       interstitialSection: "",
       easing: "easeOutExpo",
-      scrollSpeed: 1800,
+      scrollSpeed: 800,
       offset: 0,
       scrollbars: false,
       standardScrollElements: "#modalm",
