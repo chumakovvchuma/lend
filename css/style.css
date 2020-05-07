@@ -496,12 +496,13 @@ width: 20px;
 }
 
 .logo-m {
-  background: url("../img/m/mainLogo.png") no-repeat;
+  background: url("../img/logo.png") no-repeat;
   width: 100%;
   display: block;
   height: 30vh;
 
-  top:2vh;
+  top:4vh;
+  left: 2vw;
   position: absolute;
   background-size: contain;
   left: calc(50vw - width/2);
