@@ -46,6 +46,3 @@
     });
   }); // end of document ready
 })(jQuery); // end of jQuery name space
-// $( ".menu-one" ).slideToggle("slow");
-// $( ".menu-two" ).slideToggle("slow");
-// $( ".menu-three" ).slideToggle("slow");

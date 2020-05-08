@@ -4,14 +4,7 @@
       numVisible: 9,
       padding: 200
     });
-
-
-
-
     $('.modal').modal();
-
-    
-
     $.scrollify({
       section : ".scrollLink",
       sectionName : "section-name",
@@ -25,8 +18,7 @@
       overflowScroll: true,
       updateHash: true,
       touchScroll:true,
-      before:function(i,panels) {
-        
+      before:function(i,panels) { 
         var ref = panels[i].attr("data-section-name");
         $(".pagination .active").removeClass("active");
         $(".pagination").find("a[href=\"#" + ref + "\"]").addClass("active");
@@ -43,9 +35,7 @@
           }
           pagination += "<li><a class=\"" + activeClass + "\" href=\"#" + $(this).attr("data-section-name") + "\"><span class=\"hover-text\">" + $(this).attr("data-section-name").charAt(0).toUpperCase() + $(this).attr("data-section-name").slice(1) + "</span></a></li>";
         });
-  
         pagination += "</ul>";
-  
         $(".menu").append(pagination);
         $(".pagination a").on("click",$.scrollify.move);
       }
@@ -56,7 +46,3 @@
   }); // end of document ready
 })(jQuery); // end of jQuery name space
 
-
-// $( ".menu-one" ).slideToggle("slow");
-// $( ".menu-two" ).slideToggle("slow");
-// $( ".menu-three" ).slideToggle("slow");
