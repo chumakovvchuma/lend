@@ -2,7 +2,6 @@
 $( document ).ready(function(){
 
   let curr = $.scrollify.currentIndex();
-  console.log(curr)
 
   $( ".link-to-two" ).on({ 
     "click": function() { 

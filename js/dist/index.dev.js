@@ -3,7 +3,6 @@
 // @ts-nocheck
 $(document).ready(function () {
   var curr = $.scrollify.currentIndex();
-  console.log(curr);
   $(".link-to-two").on({
     "click": function click() {
       $.scrollify.move("#Головна");
